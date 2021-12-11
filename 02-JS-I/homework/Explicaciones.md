@@ -1,5 +1,5 @@
 * Variables: lugares en donde quiero que se guarde algo
 * Strings: tipo de variables que se comportan como palabras
-* Funciones (argumentos, `return`): 
-* Declaraciones `if`: se usa para hacer algo si se cumple una condición
-* Valores booleanos (`true`, `false`): son valores lógicos
+* Funciones (argumentos, `return`): son objetos que se pueden llamar (invocables) y generalmente realizan una o más cosas sobre una o más variables (calcularlas, cambiarlas, étc.). Uno o más argumentos se colocan entre paréntesis en la llamada a la función, y esto es una forma de inicializar variables que existan dentro de la función. Return se utiliza para sacar algo de la función, es decir, lo que se encuentre afuera de una función solo puede conocer lo que devuelva return, y no todo lo que se pueda encontrar dentro de la función. Cuando una función ejecuta una línea de return, inmediatamente devuelve lo que corresponda y detiene la ejecución de la respectiva función, entonces, si hay lineas dentro de la función y luego del return, estas no se ejecutaran.
+* Declaraciones `if`: Es un operador de control de flujo que se usa para hacer algo si se cumple una condición
+* Valores booleanos (`true`, `false`): son valores lógicos, esencialmente dos opciones donde true significa verdadero y false, falso
