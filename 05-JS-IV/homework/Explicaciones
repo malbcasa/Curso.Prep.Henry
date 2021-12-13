@@ -1,0 +1,11 @@
+Objetos: Un objeto es una coleción de propiedades. Es muy parecido a un arreglo, pero los índices son strings en vez de ser números. Se define un objeto así:
+                                                var objeto = {
+                                                    clave1: valor1,
+                                                    clave2: valor2,
+                                                    ...
+                                                    claveN: valorN
+                                                    } 
+Propiedades: cada propiedad es un par clave:valor. Los valores pueden ser de cualquier tipo (num, bool, funciones, étc.)
+Métodos: se le llama método a una función que es parte de un objeto
+Bucle for…in: Es un bucle especial de js que permite iterar sobre las claves de un objeto, la notación es:          for (clave in objeto)
+Notación de puntos vs notación de corchetes: son maneras de acceder a los valores de un objeto mediante las key. La notación de puntos, objeto.key , es literal, es más rapida pero no permite la utilización de variables que no sean una key. La notación de corchetes, objeto['key'], es "más tediosa" pero útil a la hora de hacer referencia a las keys mediante una variable.
