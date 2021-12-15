@@ -1,3 +1,3 @@
 
     prototype: cada vez que se crea una clase, esta está basada en un prototipo que nosotros no definimos. Con la propiedad prototype podemos hacer referencia a ese prototipo para definir en él métodos. De esta manera, puedo invocar un método que si bien no esta definido en la clase, si lo esta en el prototipo y funciona para la clase.
-    Constructors (de Clases): 
+    Constructors (de Clases): Es un tipo de función que se define, y luego se usa para crear objetos.
