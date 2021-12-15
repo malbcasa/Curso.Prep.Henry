@@ -1,0 +1,1 @@
+Funciones Callback: una función callback es aquella que se pasa como argumento a otra función. La sintaxis seria function funcion (elemento, callback){}, donde elemento puede ser usado tanto por la función como por el cb
