@@ -119,6 +119,7 @@ function deleteAbc(cadena){
       }
     }
   }
+  
   var arr = ['a','b','c']
   arr.forEach(verifica)
   return cadena
